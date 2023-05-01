@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MM Tiwari Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/50cde86d78.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>mmtiwari<span>222.....</span></h1></div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Web Developer</p>
+                <h1>Hey, I'm <span>Madanmohan</span><br>Tiwari From India</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!---------------------------------------------------------------about-------------------------------------------------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"></div>
+                <img class="image" src="images/profile-1.jpeg" alt="">
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a web developer with a vast array of knowledge in many different front end and back end languages, responsive 
+                        frameworks, databases, and best code practices. My objective is simply to be the best web developer that I can be and to 
+                         contribute to the technology industry all that I know and can do</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><Span>Web Development</Span><br>MERN Stack Development</li>
+                            <li><Span>App Development</Span><br>Building Android apps</li>
+                            <li><Span>UI/UX</Span><br>Designing Web/App Interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><Span>April 2023 - Current</Span><br>Web Developer Intern at Magnet Tech Pvt Ltd</li>
+                            <li><Span>July 2022 - August 2022</Span><br>Summer Training/Internship at NIELIT</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><Span>2023</Span><br>MERN Development Training at PW Skills</li>
+                            <li><Span>2023</Span><br>Diploma from Maharana Pratap Pollytechnic Gorakhpur</li>
+                            <li><Span>2022</Span><br>Intermediate from SLJ High School Darauli Bihar</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!---------------------------------------------------------Services------------------------------------------------------------------->
+
+    <div id="services">
+        <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem repellendus adipisci voluptas pariatur eveniet magnam 
+                     facilis similique unde culpa quis?</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop"></i>
+                <h2>UI/UX Designing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem repellendus adipisci voluptas pariatur eveniet magnam 
+                     facilis similique unde culpa quis?</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem repellendus adipisci voluptas pariatur eveniet magnam 
+                     facilis similique unde culpa quis?</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+
+<!---------------------------------------------------------------Projects---------------------------------------------------------------- -->
+
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Calculator</h3>
+                    <p>This Calculator web app helps you to calculate basic mathematical operations easily.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Landing Page</h3>
+                    <p>This is a Restaurant Landing Page for a Food Hut Restaurant.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping Website </h3>
+                    <p>The website helps anyone for online shopping from anywhere in India. </p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+
+<!--------------------------------------------------------------Contact-------------------------------------------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>mmtiwari222@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9565019140</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/mmtiwari_01/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/madanmohan-tiwari/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.github.com/mmtiwari222"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-solid fa-blog"></i></a>
+                </div>
+                <a href="images/mmt222CV.pdf" download class="btn btn2">Download CV</a>
+                
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Made by <i class="fa-sharp fa-solid fa-heart"></i> mmtiwari222</p>
+    </div>
+</div>
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyi6_YvZ7pG-Jzrj5EBnNe3zOJhoHDt9BkMEe75C15UDckgF25FXdRWxSII0pc2N7LhcA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Submited Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
